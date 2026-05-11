@@ -333,6 +333,8 @@ a { text-decoration: none; }
   border-right: 1px solid var(--border-light);
   background: var(--bg-primary);
   overflow: hidden;
+  min-height: 0;
+  min-width: 0;
 }
 .match-panel:last-child { border-right: none; }
 .mp-header {
@@ -384,6 +386,8 @@ tbody tr.sel td { background: var(--accent-light); color: var(--accent-text); fo
   display: flex; flex-direction: column; gap: 10px;
   background: var(--bg-primary);
   flex-shrink: 0;
+  max-height: 45%;
+  overflow-y: auto;
 }
 .df-label {
   font-size: 10px; color: var(--text-tertiary);
