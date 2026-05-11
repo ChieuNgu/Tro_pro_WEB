@@ -1201,7 +1201,7 @@ function doLogin() {
   }
   btn.textContent = 'Đang đăng nhập...';
   btn.classList.add('loading');
-  fetch(API + '/login', {
+  fetch(API + '/api/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username: u, password: p })
