@@ -40,7 +40,7 @@ const DB_CONFIG = {
   user:     process.env.DB_USER     || "postgres",
   host:     process.env.DB_HOST     || "localhost",
   database: process.env.DB_NAME     || "phongtro_pro",
-  password: process.env.DB_PASS     || "mat_khau_cua_ban",
+  password: process.env.DB_PASS     || "123456",
   port:     parseInt(process.env.DB_PORT || "5432"),
 };
 
